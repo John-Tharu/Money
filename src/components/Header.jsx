@@ -1,5 +1,5 @@
 export const Header = () => {
-  const today = new Date("2025-11-27"); // Example date
+  const today = new Date(); // Example date
   const formattedDate = today.toLocaleDateString("en-GB", {
     day: "numeric",
     month: "long",
