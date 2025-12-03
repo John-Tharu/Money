@@ -15,6 +15,7 @@ export const Header = () => {
     }
   };
 
+  //Date format function
   const formatDate = (date) => {
     const day = date.getDate();
     const month = date.toLocaleString("en-GB", { month: "long" });
