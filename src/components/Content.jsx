@@ -77,7 +77,7 @@ export const Content = () => {
           const iso = item.currency.iso3;
           const name = item.currency.name;
           const unit = item.currency.unit;
-          const rate = item.sell;
+          const rate = parseFloat((item.buy - (item.buy * 2) / 100).toFixed(2));
 
           return (
             <Country
